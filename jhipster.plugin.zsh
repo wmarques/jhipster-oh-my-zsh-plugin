@@ -1,0 +1,7 @@
+alias jhi='yo jhipster'
+alias jhidock='yo jhipster:docker-compose'
+alias jhie='yo jhipster:entity'
+alias jhicf='yo jhipster:cloudfoundry'
+alias jhihero='yo jhipster:heroku'
+alias jhiaws='yo jhipster:aws'
+alias jhilang='yo jhipster:languages'

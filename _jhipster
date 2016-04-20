@@ -1,0 +1,24 @@
+#compdef jhipster
+#autoload
+
+# JHipster autocompletion for oh-my-zsh
+# Requires: JHipster installed
+# Author: William Marques (@wmarques)
+
+local -a _1st_arguments
+_1st_arguments=(
+    \:app:generate a JHipster application
+    \:entity:generate an entity
+)
+
+_arguments '*:: :->command'
+
+if (( CURRENT == 1 )); then
+    _describe -t commands "jhipster command" _1st_arguments
+    return
+fi
+
+local -a _command_args
+case "$words[1]" in
+
+esac
